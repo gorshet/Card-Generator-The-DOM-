@@ -1,0 +1,37 @@
+body{
+       background: green;}
+.card{
+       background: white;
+       width: 403px;
+       height: 500px;
+       margin: auto;
+       border-radius: 20px;
+       position: relative;
+       text-align: center;
+}
+.top-suit{position:absolute;
+       top: 20px;
+       left:20px;
+   font-size: 100px;
+}
+.bottom-suit{position: absolute;
+   bottom: 20px;
+   right: 20px;
+   font-size: 100px;
+
+}
+.number{
+   font-size: 176px;
+   margin: 0;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+
+
+}
+
+.red{
+    color: red;
+}
